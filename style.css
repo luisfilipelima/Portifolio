@@ -111,6 +111,12 @@ main .inicio .botao button{
     border-radius: 10px;
     background-color: rgb(14, 14, 14);
     color: #00B69E; 
-
+    cursor: pointer;
 }
+
+main .inicio .botao button:hover{
+    background-color: rgb(23, 22, 22);
+    transition: 0.5s;
+}
+
 
