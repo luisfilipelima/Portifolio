@@ -25,4 +25,58 @@
    .container .logo #verde{
     margin-left: 10;
    }
+   main {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .inicio{
+    margin-right: 0;
+}
+
+main .inicio p{ 
+color: #ffffff;
+font-size: 21px;
+padding: 10px 0 10px;    
+}
+
+main .inicio h1{
+    color: #00B69E;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+main .inicio a{
+    text-decoration: none;
+}
+
+main .inicio .web {
+    display: flex;
+}
+
+main .inicio .web #green{
+      color: #00B69E;
+      margin-left: 20px;
+      font-weight: bolder;
+}
+
+main .inicio .botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+main .inicio .botao button{
+     padding: 20px 100px;
+     border: 1px solid #00B69E;
+    border-radius: 10px;
+    background-color: rgb(14, 14, 14);
+    color: #00B69E;
+}
+
 }
