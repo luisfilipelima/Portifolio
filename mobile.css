@@ -79,4 +79,10 @@ main .inicio .botao button{
     color: #00B69E;
 }
 
+main .imagem{
+    background-image: none;
+}
+
+
+
 }

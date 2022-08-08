@@ -64,7 +64,6 @@ main {
     width: 100%;
     height: 89vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -102,7 +101,7 @@ main .inicio .web #green{
 main .inicio .botao{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 main .inicio .botao button{
@@ -119,4 +118,12 @@ main .inicio .botao button:hover{
     transition: 0.5s;
 }
 
-
+main .imagem{
+    background-image: url(fundo2-removebg-preview.png);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    position: absolute;
+    left: 60%;
+    bottom: 28%
+}
