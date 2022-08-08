@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 *{
     margin: 0;
     padding:0;
@@ -15,6 +16,7 @@ header{
     height: 80px;
     background-color: rgb(14, 14, 14);
     color: #ffff; 
+    border: 1px solid rgba(0, 0, 0, 0.062);
     
         
 }
@@ -34,9 +36,11 @@ header{
 
 }
 
+
 .container .logo p{
     font-size: 25px;
     font-weight: bold;
+    font-family:  'Goldman', cursive;
 }
 
 .container .logo #verde{
@@ -51,11 +55,12 @@ header{
 .container .menu a{ 
      text-decoration: none;
      color: #ffffff;
-     padding: 10px;
+     padding: 15px;
+     
 
 }
 
-.container .menu a:hover{
+.container .menu  nav a:hover{
     color: #00B69E;
     transition: 1.5s;
 }
@@ -121,8 +126,8 @@ main .inicio .botao button:hover{
 
 main .imagem{
     background-image: url(fundo2-removebg-preview.png);
-    width: 500px;
-    height: 500px;
+    width: 401px;
+    height: 419px;
     background-size: cover;
     position: absolute;
     left: 60%;
