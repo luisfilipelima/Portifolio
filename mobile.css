@@ -41,14 +41,14 @@ main .inicio{
 
 main .inicio p{ 
 color: #ffffff;
-font-size: 21px;
+font-size: 18px;
 padding: 10px 0 10px;    
 }
 
 main .inicio h1{
     color: #00B69E;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 main .inicio a{
