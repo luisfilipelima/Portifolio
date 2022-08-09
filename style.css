@@ -74,21 +74,37 @@ main {
     align-items: center;
 }
 
+
+main .inicio h1, p  {
+
+}
+
+
 main .inicio{
      margin-right: 400px;
 }
 
-main .inicio p{ 
+main .inicio .line{ 
 color: #ffffff;
 font-size: 21px;
-padding: 10px 0 10px;    
+padding: 10px 0 10px;  
+ border-right: 2px solid white;  
 }
 
-main .inicio h1{
-    color: #00B69E;
-    font-weight: bolder;
-    font-size: 3em;
+.animation{
+    animation: cursor 500ms infinite normal;
 }
+
+@keyframes cursor{
+    from{
+        boder-right-color: #ffff ;
+    }
+    to{
+        boder-right-color: transparent;
+    }
+}
+
+
 
 main .inicio a{
     text-decoration: none;
@@ -102,7 +118,7 @@ main .inicio .web #green{
       color: #00B69E;
       margin-left: 20px;
       font-weight: bolder;
-      font-family: 'Goldman', cursive;
+      
 }
 
 main .inicio .botao{
@@ -115,9 +131,10 @@ main .inicio .botao button{
      padding: 15px 100px;
      border: 1px solid #00B69E;
     border-radius: 10px;
-    background-color: rgb(14, 14, 14);
-    color: #00B69E; 
+    background-color:#00B69E ;
+    color: white; 
     cursor: pointer;
+    font-size: 25px;
 }
 
 main .inicio .botao button:hover{
